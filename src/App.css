@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url("fonts/Kanit-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "kanit-medium";
+  src: url("fonts/Kanit-Medium.ttf") format("truetype");
+}
+
+@theme {
+  --font-kanit: "kanit", sans-serif;
+  --font-kanit-medium: "kanit-medium", sans-serif;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 5px rgb(48, 54, 64);
+}
